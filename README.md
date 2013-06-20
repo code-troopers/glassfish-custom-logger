@@ -2,18 +2,18 @@
 
 
 ## Take as it
-1 - copy jar into `glassfish/domains/domain1/lib/ext/`
-2 - edit logging.propetries file into `glassfish/domains/domain1/config/`
-3 - replace `com.sun.enterprise.server.logging.GFFileHandler.formatter=` by `com.sun.enterprise.server.logging.GFFileHandler.formatter=codetroopers.GlassfishCustomLogger`
-4 - enjoy
+- copy jar into `glassfish/domains/domain1/lib/ext/`
+- edit logging.propetries file into `glassfish/domains/domain1/config/`
+- replace `com.sun.enterprise.server.logging.GFFileHandler.formatter=` by `com.sun.enterprise.server.logging.GFFileHandler.formatter=codetroopers.GlassfishCustomLogger`
+- enjoy
 
 ## Customize output
 
-1 - edit GlassfishCustomLogger.java
-2 - build with maven
-3 - copy jar into `glassfish/domains/domain1/lib/ext/`
-4 - edit `com.sun.enterprise.server.logging.GFFileHandler.formatter=` if not yet done
-5 - enjoy
+- edit GlassfishCustomLogger.java
+- build with maven
+- copy jar into `glassfish/domains/domain1/lib/ext/`
+- edit `com.sun.enterprise.server.logging.GFFileHandler.formatter=` if not yet done
+- enjoy
 
 ## Output example
 
