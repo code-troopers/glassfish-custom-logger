@@ -1,4 +1,4 @@
-target
+target/maven-archiver/
 *.class
 *.iml
 .idea
