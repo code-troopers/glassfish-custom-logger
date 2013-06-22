@@ -3,7 +3,7 @@
 
 ## Take as it
 - copy jar into `glassfish/domains/domain1/lib/ext/`
-- edit logging.propetries file into `glassfish/domains/domain1/config/`
+- edit logging.properties file into `glassfish/domains/domain1/config/`
 - replace `com.sun.enterprise.server.logging.GFFileHandler.formatter=com.sun.enterprise.server.logging.UniformLogFormatter` by `com.sun.enterprise.server.logging.GFFileHandler.formatter=codetroopers.GlassfishCustomLogger`
 - enjoy
 
